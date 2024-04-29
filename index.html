@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week 11 assignment</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  
+
+</head>
+<body>
+    
+    <h1>Tic-Tac-Toe</h1> 
+
+    <!-- I used the h1 tag for the title of the game as I thought it was the most appropriate. -->
+
+    <h2 id="turnAnnouncement"></h2>
+
+    <!-- I used the h2 tag with the Javascript id "turnheading" to indicate if it's "X's" turn or "O's" turn.-->
+
+    
+    <div class="row">
+        <div class="col box" id="1">1</div>
+        <div class="col box" id="2">2</div>
+        <div class="col box" id="3">3</div>
+    </div>
+    <div class="row"> 
+        <div class="col box" id="4">4</div>
+        <div class="col box" id="5">5</div>
+        <div class="col box" id="6">6</div>
+    </div>
+    <div class="row">
+        <div class="col box" id="7">7</div>
+        <div class="col box" id="8">8</div>
+        <div class="col box" id="9">9</div>
+    </div>
+
+    <!-- I created the grid of the game using "div" elements and bootstrap classes titled "row" and "col box" to create the boxes of the
+    game. Each box is assigned an id number of 1-9 to represent the 9 spaces that exist in a Tic-Tac-Toe game.  -->
+
+
+    <button id="restartBtn" class="btn btn-primary">Let's Restart The Game</button>
+
+    <!-- I used a "button" elememt with the id "restartBtn" and bootstrap class "btn btn-primary" to create a button that would
+    allow users to restart the game.-->
+
+    <div id="championAlert" class="alert alert-success d-none" role="alert"></div>
+
+    <!-- I used the "div" element with the Javascript id "winnerAlert" along with the bootstrap classes "alert alert-success d-none"
+    to help announce the winner. -->
+
+    
+    <script src="index.js"></script>
+
+</body>
+</html>

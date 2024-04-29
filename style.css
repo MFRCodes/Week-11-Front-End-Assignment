@@ -1,0 +1,16 @@
+.box {
+    border: 3px solid brown;
+    width: 120px;
+    max-width: 120px;
+    height: 120px;
+}
+
+/* I made the border of each box brown, the width and max-width 120 pixels, and the height 120 pixels as these settings
+are what I felt were the most aesthetically pleasing. */
+
+.board {
+    display: grid;
+    justify-content: center;
+}
+
+/* I created a grid container to more easily align the space inside each box. Line 13 centers the grid.  */
